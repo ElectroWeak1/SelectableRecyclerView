@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="recyclerview.selectablerecyclerview.MainActivity">
+
+    <item android:title="Toggle Selection Mode"
+        app:showAsAction="ifRoom"
+        android:onClick="toggleSelectionMode" />
+
+    <item android:title="Add Item"
+        app:showAsAction="ifRoom"
+        android:onClick="addItem" />
+
+    <item android:title="Remove Selected Items"
+        app:showAsAction="ifRoom"
+        android:onClick="removeSelectedItems" />
+
+</menu>
